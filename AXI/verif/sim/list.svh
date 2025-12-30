@@ -1,0 +1,17 @@
+`include "uvm_pkg.sv"
+import uvm_pkg::*;
+
+`include "../top/axi_config.sv"
+`include "../uvc/axi_tx.sv"
+`include "../uvc/axi_seq_lib.sv"
+`include "../top/axi_intf.sv"
+`include "../uvc/axi_sqr.sv"
+`include "../uvc/axi_drv.sv"
+`include "../uvc/axi_res.sv"
+`include "../uvc/axi_mon.sv"
+`include "../uvc/axi_cov.sv"
+`include "../uvc/axi_agent.sv"
+`include "../top/axi_sbd.sv"
+`include "../top/axi_env.sv"
+`include "../top/test_lib.sv"
+`include "../top/top.sv"
